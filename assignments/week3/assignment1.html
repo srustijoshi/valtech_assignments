@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search and Highlight</title>
+    <style>
+        
+        .container{
+            height:50px;
+            width:100%;
+            display:flex;
+            background-color: grey;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function searchText() {
+            
+            const searchInput = document.getElementById("searchInput").value;
+            const paragraph = document.getElementById("paragraph");
+            
+            
+            paragraph.innerHTML = paragraph.textContent;
+
+            
+            const words = paragraph.textContent.split(" ");
+            
+            
+            for (let i = 0; i < words.length; i++) {
+                if (words[i].toLowerCase() === searchInput.toLowerCase()) {
+                words[i] = `<span class="highlight">${words[i]}</span>`;
+                }
+            }
+
+            
+            const highlightedText = words.join(" ");
+
+            
+            paragraph.innerHTML = highlightedText;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="searchText()">Search</button>
+        
+    </div>
+    <p id="paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum aspernatur ipsa illo, sed fuga quos unde accusantium atque saepe. Quis aliquam dignissimos vitae, facilis ipsum doloremque? Consectetur minus in sapiente debitis recusandae odio ullam iste explicabo, molestias nemo fugit cumque dolore amet. Ab, dolorum officia non aliquam, doloribus quas quae omnis hic nobis animi corporis, vel ea a ipsa dolor nam. Voluptatibus vitae numquam autem repellendus dolor voluptates quisquam nisi quas adipisci. Vero explicabo sunt facilis reprehenderit alias, velit esse? Accusamus nobis reprehenderit quaerat quia nam magnam error, voluptatem fugiat temporibus quisquam vero. Ipsa magnam blanditiis natus alias a minus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda in accusantium, fugiat necessitatibus similique sequi. Atque saepe praesentium voluptatem suscipit, esse illum maxime excepturi aspernatur optio mollitia eveniet sunt quaerat vitae accusamus deleniti nostrum blanditiis commodi magnam perspiciatis obcaecati nam unde vel. Ea perspiciatis ex deleniti voluptas, aut praesentium vitae dolore est quaerat ipsum, dolorem velit veniam repellat officiis fugiat tempore eaque dolorum animi quasi. Velit minus tempora sed impedit sint provident tenetur quod fugiat qui maiores. Praesentium perspiciatis corporis neque nisi, accusantium soluta deleniti saepe assumenda maiores est minus rerum, asperiores voluptatum recusandae dolore corrupti nobis alias sit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo minus explicabo eos facere. Numquam labore vitae, voluptatem delectus magni nobis. Voluptates iure impedit deleniti? Consectetur dolore dolorum quis blanditiis neque laboriosam adipisci ex sed animi exercitationem totam similique voluptatum, illo dolor placeat et nisi eligendi nostrum cumque ratione eaque laudantium ad, minus nihil! Velit, excepturi. Repellat sint amet ratione placeat hic, unde necessitatibus cum. Et, id omnis ullam exercitationem impedit repellendus perspiciatis excepturi qui porro ipsam temporibus aliquid perferendis, accusamus ab soluta corporis quae, minus commodi? Totam nostrum tenetur unde ex, voluptas quos, nam, aliquam eaque sequi magnam qui quae.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo optio beatae eos fuga? Omnis velit doloremque officia molestiae itaque, tempore aspernatur exercitationem voluptatibus dolor libero commodi possimus ad! Delectus, vel fugit? Possimus voluptatibus eum, ratione cumque rem blanditiis aut neque quia dolores, distinctio incidunt dolor reiciendis ipsam minus corrupti quam amet repellat voluptatem iusto voluptates? Nobis asperiores cumque impedit optio assumenda nemo quas possimus iure est, vitae eveniet dignissimos dolorem hic laborum porro, ea vel in cum saepe voluptate veniam sit cupiditate. Aperiam numquam eligendi ratione blanditiis ullam, neque magnam ab iste fugit corporis quas doloremque tempore. Mollitia, tempora provident.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel mollitia facilis aut amet? Alias dicta voluptatum, sed officia velit ea culpa, consequuntur soluta dolore voluptate nihil eos a corrupti voluptatibus delectus doloribus tenetur. Similique accusamus, illum maxime, quod inventore officia dolorum cupiditate iste vel commodi voluptatum ratione esse, nihil ut recusandae voluptas sed excepturi ullam enim voluptates! Laboriosam quas vero tenetur molestiae dolor, beatae optio asperiores eligendi id atque perferendis voluptatibus possimus? Laudantium dolorem itaque dolore blanditiis incidunt doloremque praesentium alias quam facere aut, distinctio voluptate id ex doloribus ipsam sint quod unde vel fugiat? Natus dolor quo tempore.
+    </p>
+    
+    
+
+    
+</body>
+</html>
