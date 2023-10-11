@@ -1,0 +1,235 @@
+{
+    "Mumbai": [{
+        "placetype": "Historical",
+        "places": [
+            {
+                "name": "Gateway of India",
+                "latitude": 18.9217,
+                "longitude": 72.8347,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best visited during daylight"
+              },
+              {
+                "name": "Chhatrapati Shivaji Terminus (CST)",
+                "latitude": 18.9402,
+                "longitude": 72.8337,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best viewed from outside"
+              },
+              {
+                "name": "Elephanta Caves",
+                "latitude": 18.9647,
+                "longitude": 72.9304,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 10 (Indian Nationals), INR 250 (Foreign Nationals)",
+                "timings": "9:30 AM - 5:30 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Kanheri Caves",
+                "latitude": 19.2170,
+                "longitude": 72.9106,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 5 (Indian Nationals), INR 100 (Foreign Nationals)",
+                "timings": "7:30 AM - 5:30 PM"
+              },
+              {
+                "name": "Banganga Tank",
+                "latitude": 18.9564,
+                "longitude": 72.8031,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best visited during daylight"
+              }
+        ]
+    
+    },
+    {
+        "placetype": "Adventurous",
+        "places": [
+            {
+                "name": "EsselWorld",
+                "latitude": 19.2393,
+                "longitude": 72.8138,
+                "dress_code": "Comfortable attire suitable for rides",
+                "entry_fee": "Varies based on the package",
+                "timings": "10:30 AM - 7:30 PM (Weekdays), 10:30 AM - 8:00 PM (Weekends)"
+              },
+              {
+                "name": "Adlabs Imagica",
+                "latitude": 19.4052,
+                "longitude": 73.1895,
+                "dress_code": "Comfortable attire suitable for rides",
+                "entry_fee": "Varies based on the package",
+                "timings": "10:30 AM - 8:00 PM"
+              },
+              {
+                "name": "Karnala Fort Trek",
+                "latitude": 18.9266,
+                "longitude": 73.1231,
+                "dress_code": "Comfortable trekking attire",
+                "entry_fee": "INR 50 (Indian Nationals), INR 200 (Foreign Nationals)",
+                "timings": "Best visited during daylight hours"
+              },
+              {
+                "name": "Mumbai Skydiving at Dhule",
+                "latitude": 20.9290,
+                "longitude": 74.7749,
+                "dress_code": "Sportswear suitable for skydiving",
+                "entry_fee": "Varies based on skydiving packages",
+                "timings": "Depends on the skydiving schedule and weather conditions"
+              },
+              {
+                "name": "Water Kingdom",
+                "latitude": 19.2317,
+                "longitude": 72.8126,
+                "dress_code": "Swimwear and comfortable clothing",
+                "entry_fee": "Varies based on the package",
+                "timings": "10:30 AM - 6:30 PM (Weekdays), 10:30 AM - 7:00 PM (Weekends)"
+              }
+            
+        ]
+    },
+    {
+        "placetype": "Religious",
+        "places": [
+            {
+                "name": "Siddhivinayak Temple",
+                "latitude": 19.0177,
+                "longitude": 72.8304,
+                "dress_code": "Modest attire; no shorts or sleeveless tops",
+                "entry_fee": "Free",
+                "timings": "5:30 AM - 10:00 PM"
+              },
+              {
+                "name": "Haji Ali Dargah",
+                "latitude": 18.9820,
+                "longitude": 72.8103,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "5:30 AM - 10:00 PM"
+              },
+              {
+                "name": "Mahalaxmi Temple",
+                "latitude": 18.9833,
+                "longitude": 72.8131,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "6:30 AM - 8:30 PM"
+              }
+        ]
+        
+    
+    }, {
+        "placetype": "Leisure",
+        "places": [
+            {
+                "name": "Marine Drive",
+                "latitude": 18.9427,
+                "longitude": 72.8246,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best visited during evening and night"
+              },
+              {
+                "name": "Juhu Beach",
+                "latitude": 19.1006,
+                "longitude": 72.8263,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best visited during evening and night"
+              },
+              {
+                "name": "Sanjay Gandhi National Park",
+                "latitude": 19.2162,
+                "longitude": 72.9141,
+                "dress_code": "Casual attire; appropriate for trekking",
+                "entry_fee": "INR 53 (Indian Adults), INR 103 (Foreign Nationals), additional fees for attractions",
+                "timings": "7:30 AM - 6:30 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Mumbai Film City",
+                "latitude": 19.1551,
+                "longitude": 72.8236,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on studio tours",
+                "timings": "Depends on the studio and tour schedule"
+              }
+        ]
+    
+    }, {
+        "placetype": "Shopping",
+        "places": [
+            {
+                "name": "Colaba Causeway",
+                "latitude": 18.9150,
+                "longitude": 72.8258,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 11:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Linking Road",
+                "latitude": 19.0655,
+                "longitude": 72.8376,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 11:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Crawford Market",
+                "latitude": 18.9466,
+                "longitude": 72.8328,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "10:00 AM - 8:00 PM (Closed on Sundays)"
+              }
+        ]
+    },
+    {
+        "placetype": "Food Places",
+        "places": [
+            {
+                "name": "Leopold Cafe",
+                "latitude": 18.9284,
+                "longitude": 72.8328,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "7:30 AM - 12:30 AM"
+              },
+              {
+                "name": "Britannia & Co.",
+                "latitude": 18.9390,
+                "longitude": 72.8377,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "11:00 AM - 4:00 PM (Closed on Sundays)"
+              },
+              {
+                "name": "Gajalee",
+                "latitude": 19.0264,
+                "longitude": 72.8545,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "11:00 AM - 3:30 PM, 7:00 PM - 12:00 AM"
+              },
+              {
+                "name": "Bademiya",
+                "latitude": 18.9342,
+                "longitude": 72.8297,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "6:30 PM - 1:00 AM"
+              },
+              {
+                "name": "Café Mondegar",
+                "latitude": 18.9245,
+                "longitude": 72.8322,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "7:30 AM - 12:00 AM"
+              }
+        ]
+    }]
+}

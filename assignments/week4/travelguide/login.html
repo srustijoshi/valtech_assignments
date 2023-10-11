@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .form-body{
+            height:400px;
+            width:500px;
+            background-color: antiquewhite;
+            outline:2px solid antiquewhite;
+            margin:50px auto;
+            border-radius: 5%;
+            
+        }
+        .form-body h2{
+            text-align: center;
+            height:20px;
+            width:100%;
+            line-height: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #main{
+            margin: 20px auto;
+            margin-left: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #main input{
+            width: 250px;
+        }
+        
+        #main button{
+            margin-left: 150px;
+            height:40px;
+            width: 100px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: blue;
+            color: papayawhip;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border:2px solid blue;
+        }
+        #main button:hover{
+            background-color: darkslateblue;
+        }
+    </style>
+    <script>
+        function clickHandler(){
+            var email=document.getElementById("email").value;
+            var pass=document.getElementById("pass").value;
+            var cpass=document.getElementById("cpass").value;
+            console.log(email);
+            if(email && pass && cpass){
+                if(pass===cpass){
+                    
+                }else{
+                    alert("Confirm password and password fields should match")
+                }
+            }else{
+                alert("Enter all the fields")
+            }
+        }
+            
+        
+    </script>
+</head>
+<body>
+    <div class="form-body">
+        <br>
+        <h2> Login Page </h2> 
+        <br>
+        
+            <form id="main" ><b>
+                <label for="email">Email</label> </br> 
+                <input type="email" name="email" id="email" required > </br> </br>
+                <label for="pass">Password</label> </br> 
+                <input type="password" name="pass" id="pass" required> </br> </br>
+                <label for="cpass">Confirm Password</label> </br> 
+                <input type="password" name="cpass" id="cpass" required> </br> </br></b>
+                <button id="btn" onclick="clickHandler()" value="submit">Submit</button>
+            </form>
+             
+    </div>
+    
+</body>
+</html>

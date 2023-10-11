@@ -1,0 +1,259 @@
+{
+    "Bangalore": [{
+        "placetype": "Historical",
+        "places": [
+            {
+                "name": "Bangalore Palace",
+                "latitude": 12.9984,
+                "longitude": 77.5920,
+                "dress_code": "Casual attire",
+                "entry_fee": "INR 230 (Indian Nationals), INR 460 (Foreign Nationals)",
+                "timings": "10:00 AM - 5:30 PM"
+              },
+              {
+                "name": "Tipu Sultan's Summer Palace",
+                "latitude": 12.9593,
+                "longitude": 77.5737,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 15 (Indian Nationals), INR 200 (Foreign Nationals)",
+                "timings": "10:00 AM - 6:00 PM"
+              },
+              {
+                "name": "Vidhana Soudha",
+                "latitude": 12.9794,
+                "longitude": 77.5902,
+                "dress_code": "Formal attire for government visits",
+                "entry_fee": "Not applicable (Visitors allowed outside)",
+                "timings": "Viewing from outside is allowed at any time."
+              },
+              {
+                "name": "Bangalore Fort",
+                "latitude": 12.9629,
+                "longitude": 77.5764,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "9:00 AM - 6:00 PM"
+              }
+        ]
+    
+    },
+    {
+        "placetype": "Adventurous",
+        "places": [
+            {
+                "name": "Wonderla Amusement Park",
+                "latitude": 12.8356,
+                "longitude": 77.6778,
+                "dress_code": "Comfortable clothing suitable for rides",
+                "entry_fee": "Varies based on the package",
+                "timings": "11:00 AM - 6:00 PM (Weekdays), 11:00 AM - 7:00 PM (Weekends)"
+              },
+              {
+                "name": "Nandi Hills",
+                "latitude": 13.3705,
+                "longitude": 77.6835,
+                "dress_code": "Casual attire, but carry warm clothing for early mornings",
+                "entry_fee": "INR 10 (Entry), INR 60 (Vehicle Parking)",
+                "timings": "Open 24 hours, but best visited during daylight"
+              },
+              {
+                "name": "Ramanagara - Rock Climbing",
+                "latitude": 12.7294,
+                "longitude": 77.2076,
+                "dress_code": "Comfortable sportswear",
+                "entry_fee": "Varies based on the climbing facility",
+                "timings": "Depends on the climbing facility"
+              },
+              {
+                "name": "Kunti Betta Trek",
+                "latitude": 12.5784,
+                "longitude": 77.5464,
+                "dress_code": "Comfortable trekking attire",
+                "entry_fee": "Varies based on trek organizers",
+                "timings": "Best visited during daylight; Overnight treks available"
+              }
+            
+        ]
+    },
+    {
+        "placetype": "Religious",
+        "places": [
+            {
+                "name": "ISKCON Temple",
+                "latitude": 12.9716,
+                "longitude": 77.5946,
+                "dress_code": "Modest attire; no shorts or sleeveless tops",
+                "entry_fee": "Free",
+                "timings": "4:30 AM - 5:00 AM, 7:15 AM - 1:00 PM, 4:00 PM - 8:20 PM"
+                },
+                {
+                "name": "Bull Temple (Nandi Temple)",
+                "latitude": 12.9423,
+                "longitude": 77.5704,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 8:00 PM"
+                },
+                {
+                "name": "Gavi Gangadhareshwara Temple",
+                "latitude": 12.9574,
+                "longitude": 77.5692,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 8:00 PM"
+                },
+                {
+                "name": "St. Mary's Basilica",
+                "latitude": 12.9839,
+                "longitude": 77.5946,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 7:00 PM"
+                },
+                {
+                "name": "Ragigudda Anjaneya Temple",
+                "latitude": 12.9101,
+                "longitude": 77.6122,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 8:00 PM"
+            }
+        ]
+        
+    
+    }, {
+        "placetype": "Leisure",
+        "places": [
+            {
+                "name": "Lalbagh Botanical Garden",
+                "latitude": 12.9507,
+                "longitude": 77.5848,
+                "dress_code": "Casual attire",
+                "entry_fee": "INR 20 (Indian Nationals), INR 230 (Foreign Nationals)",
+                "timings": "6:00 AM - 7:00 PM"
+              },
+              {
+                "name": "Cubbon Park",
+                "latitude": 12.9777,
+                "longitude": 77.5946,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "5:00 AM - 8:00 PM"
+              },
+              {
+                "name": "Bannerghatta Biological Park",
+                "latitude": 12.8006,
+                "longitude": 77.5770,
+                "dress_code": "Casual attire",
+                "entry_fee": "INR 80 (Adult Indian Nationals), INR 400 (Foreign Nationals)",
+                "timings": "9:30 AM - 5:00 PM (Closed on Tuesdays)"
+              },
+              {
+                "name": "Ulsoor Lake",
+                "latitude": 12.9774,
+                "longitude": 77.6262,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 8:00 PM"
+              },
+              {
+                "name": "Innovative Film City",
+                "latitude": 12.7280,
+                "longitude": 77.4044,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on attractions",
+                "timings": "10:00 AM - 7:00 PM (Closed on Mondays)"
+              }
+        ]
+    
+    }, {
+        "placetype": "Shopping",
+        "places": [
+            {
+                "name": "UB City",
+                "latitude": 12.9716,
+                "longitude": 77.5946,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "10:30 AM - 9:30 PM"
+              },
+              {
+                "name": "Brigade Road",
+                "latitude": 12.9745,
+                "longitude": 77.6078,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 10:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Commercial Street",
+                "latitude": 12.9839,
+                "longitude": 77.6086,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 10:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Phoenix Marketcity",
+                "latitude": 12.9896,
+                "longitude": 77.6963,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "11:00 AM - 10:00 PM"
+              },
+              {
+                "name": "Mantri Square Mall",
+                "latitude": 12.9914,
+                "longitude": 77.5694,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "10:00 AM - 10:00 PM"
+              }
+        ]
+    },
+    {
+        "placetype": "Food Places",
+        "places": [
+            {
+                "name": "Vidyarthi Bhavan",
+                "latitude": 12.9588,
+                "longitude": 77.5711,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "6:30 AM - 11:00 AM, 2:30 PM - 8:30 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Mavalli Tiffin Room (MTR)",
+                "latitude": 12.9634,
+                "longitude": 77.5713,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "7:00 AM - 11:00 AM, 12:30 PM - 2:30 PM, 4:00 PM - 8:30 PM"
+              },
+              {
+                "name": "Koshy's",
+                "latitude": 12.9747,
+                "longitude": 77.6161,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "9:00 AM - 11:00 PM"
+              },
+              {
+                "name": "Toit Brewpub",
+                "latitude": 12.9716,
+                "longitude": 77.5966,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on food and drinks",
+                "timings": "12:00 PM - 1:00 AM"
+              },
+              {
+                "name": "V V Puram Food Street",
+                "latitude": 12.9487,
+                "longitude": 77.5737,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Evening hours are best for street food"
+              }
+        ]
+    }]
+}

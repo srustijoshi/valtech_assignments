@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form 1</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .form-body{
+            height:800px;
+            width:500px;
+            background-color: antiquewhite;
+            outline:2px solid antiquewhite;
+            margin:50px auto;
+            border-radius: 5%;
+            
+        }
+        .form-body h2{
+            text-align: center;
+            height:20px;
+            width:100%;
+            line-height: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #main{
+            margin: 20px auto;
+            margin-left: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #main input{
+            width: 250px;
+        }
+        #main button{
+            margin-left: 150px;
+            height:40px;
+            width: 100px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: blue;
+            color: papayawhip;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border:2px solid blue;
+        }
+        #main button:hover{
+            background-color: darkslateblue;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="form-body">
+        <br>
+        <h2> User Registration Page </h2> 
+            <form id="main" action="#" method="get"><b>
+                <label for="fname">First Name</label> </br> 
+                <input type="text" name="fname" id="fname" required > </br> </br>
+                <label for="lname">Last Name</label> </br> 
+                <input type="text" name="lname" id="lname" required> </br> </br>
+                <label for="city">City</label> </br> 
+                <input type="city" name="city" id="city" required> </br> </br>
+                <label for="phone">Phone Number</label> </br> 
+                <input type="tel" name="phone" id="phone" required> </br> </br>
+                <label for="address">Address</label> </br> 
+                <input type="text" name="address" id="address" required> </br> </br>
+                <label for="sim">Sim Card</label> </br> 
+                <input type="text" name="sim" id="sim" required> </br> </br>
+                <label for="imei">IMEI Number</label> </br> 
+                <input type="number" name="imei" id="imei" required> </br> </br>
+                <label for="service_provider">Service Provider</label> </br> 
+                <input type="text" name="service_provider" id="service_provider" required> </br> </br>
+                <label for="network_status">Network Status</label> </br> 
+                <input type="range" step="1" min="0" max="5" name="network_status" id="network_status" required> </br> </br>
+                <label for="battery_status">Battery Status</label> </br> 
+                <input type="range" step="1" min="0" max="100" name="battery_status" id="battery_status" required> </br> </br>
+                <label for="health">Any Health Conditions</label> </br> 
+                <input type="text" name="health" id="health" required placeholder="Please type NA if not applicable"> </br> </br>
+            </b>
+            <button id="btn1" value="submit">Submit</button>
+            <br>
+            </form>
+            
+        </div>
+    
+</body>
+</html>

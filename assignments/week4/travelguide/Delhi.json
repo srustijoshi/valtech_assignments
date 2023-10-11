@@ -1,0 +1,275 @@
+{
+    "Bangalore": [{
+        "placetype": "Historical",
+        "places": [
+            {
+                "name": "Red Fort",
+                "latitude": 28.6562,
+                "longitude": 77.2410,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 35 (Indian Nationals), INR 500 (Foreign Nationals)",
+                "timings": "9:30 AM - 4:30 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Qutub Minar",
+                "latitude": 28.5245,
+                "longitude": 77.1855,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 30 (Indian Nationals), INR 500 (Foreign Nationals)",
+                "timings": "7:00 AM - 5:00 PM"
+              },
+              {
+                "name": "India Gate",
+                "latitude": 28.6139,
+                "longitude": 77.2295,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours"
+              },
+              {
+                "name": "Humayun's Tomb",
+                "latitude": 28.5933,
+                "longitude": 77.2507,
+                "dress_code": "Modest attire",
+                "entry_fee": "INR 30 (Indian Nationals), INR 500 (Foreign Nationals)",
+                "timings": "6:00 AM - 6:00 PM"
+              },
+              {
+                "name": "Jama Masjid",
+                "latitude": 28.6139,
+                "longitude": 77.2295,
+                "dress_code": "Modest attire; no shorts or sleeveless tops",
+                "entry_fee": "Free (INR 200 to climb the minaret)",
+                "timings": "7:00 AM - 12:00 PM, 1:30 PM - 6:30 PM"
+              }
+        ]
+    
+    },
+    {
+        "placetype": "Adventurous",
+        "places": [
+            {
+                "name": "Adventure Island",
+                "latitude": 28.7256,
+                "longitude": 77.1107,
+                "dress_code": "Comfortable attire suitable for rides",
+                "entry_fee": "Varies based on the package",
+                "timings": "11:00 AM - 7:00 PM"
+              },
+              {
+                "name": "Rocksport Adventures - Damdama Lake",
+                "latitude": 28.3977,
+                "longitude": 77.0402,
+                "dress_code": "Comfortable sports or adventure attire",
+                "entry_fee": "Varies based on the adventure activity",
+                "timings": "Depends on the activity and booking"
+              },
+              {
+                "name": "Flyboy Air Safari",
+                "latitude": 28.5439,
+                "longitude": 77.0390,
+                "dress_code": "Comfortable attire",
+                "entry_fee": "Varies based on the flight duration",
+                "timings": "7:00 AM - 9:30 AM, 4:00 PM - 6:00 PM (Closed on Tuesdays)"
+              },
+              {
+                "name": "Indian Mountaineering Foundation (IMF)",
+                "latitude": 28.5920,
+                "longitude": 77.2345,
+                "dress_code": "Appropriate attire for climbing and mountaineering",
+                "entry_fee": "Varies based on activities and courses",
+                "timings": "8:00 AM - 8:00 PM (Closed on Sundays)"
+              },
+              {
+                "name": "Gurgaon Shooting Academy",
+                "latitude": 28.4135,
+                "longitude": 77.0555,
+                "dress_code": "Comfortable attire suitable for shooting",
+                "entry_fee": "Varies based on shooting packages",
+                "timings": "9:00 AM - 5:00 PM"
+              }
+            
+        ]
+    },
+    {
+        "placetype": "Religious",
+        "places": [
+            {
+                "name": "Lotus Temple (Bahá'í House of Worship)",
+                "latitude": 28.5535,
+                "longitude": 77.2588,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "9:00 AM - 7:00 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Akshardham Temple",
+                "latitude": 28.6127,
+                "longitude": 77.2773,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free; fee for exhibitions and shows",
+                "timings": "10:00 AM - 8:00 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Gurudwara Bangla Sahib",
+                "latitude": 28.6271,
+                "longitude": 77.2090,
+                "dress_code": "Modest attire; head covering required",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours, but best visited during daylight"
+              },
+              {
+                "name": "Jama Masjid",
+                "latitude": 28.6139,
+                "longitude": 77.2295,
+                "dress_code": "Modest attire; no shorts or sleeveless tops",
+                "entry_fee": "Free",
+                "timings": "7:00 AM - 12:00 PM, 1:30 PM - 6:30 PM"
+              },
+              {
+                "name": "Laxminarayan Temple (Birla Mandir)",
+                "latitude": 28.6326,
+                "longitude": 77.2029,
+                "dress_code": "Modest attire",
+                "entry_fee": "Free",
+                "timings": "4:30 AM - 1:30 PM, 2:30 PM - 9:00 PM"
+              }
+        ]
+        
+    
+    }, {
+        "placetype": "Leisure",
+        "places": [
+            {
+                "name": "Lodhi Gardens",
+                "latitude": 28.5934,
+                "longitude": 77.2254,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "6:00 AM - 8:00 PM"
+              },
+              {
+                "name": "Deer Park",
+                "latitude": 28.5895,
+                "longitude": 77.2124,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "5:00 AM - 8:00 PM"
+              },
+              {
+                "name": "Nehru Park",
+                "latitude": 28.5949,
+                "longitude": 77.2260,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "5:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Garden of Five Senses",
+                "latitude": 28.5192,
+                "longitude": 77.2132,
+                "dress_code": "Casual attire",
+                "entry_fee": "INR 35 (Adults), INR 15 (Children)",
+                "timings": "9:00 AM - 6:30 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Sanjay Van",
+                "latitude": 28.6133,
+                "longitude": 77.2039,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Open 24 hours"
+              }
+        ]
+    
+    }, {
+        "placetype": "Shopping",
+        "places": [
+            {
+                "name": "Connaught Place",
+                "latitude": 28.6304,
+                "longitude": 77.2177,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 10:00 AM - 9:00 PM"
+              },
+              {
+                "name": "Chandni Chowk",
+                "latitude": 28.6519,
+                "longitude": 77.2302,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 11:00 AM - 8:00 PM (Closed on Sundays)"
+              },
+              {
+                "name": "Sarojini Nagar Market",
+                "latitude": 28.5781,
+                "longitude": 77.1996,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "Varies by store, typically 10:00 AM - 9:00 PM (Closed on Mondays)"
+              },
+              {
+                "name": "Dilli Haat",
+                "latitude": 28.5731,
+                "longitude": 77.2062,
+                "dress_code": "Casual attire",
+                "entry_fee": "INR 20 (Adults), INR 10 (Children)",
+                "timings": "10:30 AM - 10:00 PM"
+              },
+              {
+                "name": "Select Citywalk Mall",
+                "latitude": 28.5285,
+                "longitude": 77.2177,
+                "dress_code": "Casual attire",
+                "entry_fee": "Free",
+                "timings": "11:00 AM - 10:00 PM"
+              }
+        ]
+    },
+    {
+        "placetype": "Food Places",
+        "places": [
+            {
+                "name": "Karim's",
+                "latitude": 28.6496,
+                "longitude": 77.2357,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "11:00 AM - 11:00 PM"
+              },
+              {
+                "name": "Paranthe Wali Gali",
+                "latitude": 28.6560,
+                "longitude": 77.2313,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "9:00 AM - 11:00 PM"
+              },
+              {
+                "name": "Indian Accent",
+                "latitude": 28.6139,
+                "longitude": 77.1969,
+                "dress_code": "Smart casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "12:00 PM - 2:30 PM, 7:00 PM - 10:30 PM"
+              },
+              {
+                "name": "Pandara Road Restaurants",
+                "latitude": 28.6102,
+                "longitude": 77.2294,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the restaurant",
+                "timings": "Varies by restaurant"
+              },
+              {
+                "name": "Kuremal Mohan Lal Kulfi Wale",
+                "latitude": 28.6512,
+                "longitude": 77.2283,
+                "dress_code": "Casual attire",
+                "entry_fee": "Varies based on the order",
+                "timings": "12:00 PM - 11:00 PM"
+              }
+        ]
+    }]
+}
