@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Superhero Details from EJS Template</h1>
+        <form method="POST" action="/save">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" class="form-control" name="title" id="title" required>
+            </div>
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" name="firstname" id="firstname" required>
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" required>
+            </div>
+            <div class="form-group">
+                <label for="power">Power:</label>
+                <input type="text" class="form-control" name="power" id="power" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" class="form-control" name="city" id="city" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <br>
+        <h2>Superhero List</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Power</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% superheroes.forEach(function(hero) { %>
+                    <tr>
+                        <td><%= hero.title %></td>
+                        <td><%= hero.firstname %></td>
+                        <td><%= hero.lastname %></td>
+                        <td><%= hero.power %></td>
+                        <td><%= hero.city %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

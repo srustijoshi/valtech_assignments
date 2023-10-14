@@ -1,0 +1,47 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Superhero Details
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+  body
+    .container
+
+      h1 Superhero Details from PUG Template
+
+      form(method='POST', action='/save')
+        .form-group
+          label(for='title') Title:
+          input(type='text', class='form-control', name='title', id='title', required)
+        .form-group
+          label(for='firstname') First Name:
+          input(type='text', class='form-control', name='firstname', id='firstname', required)
+        .form-group
+          label(for='lastname') Last Name:
+          input(type='text', class='form-control', name='lastname', id='lastname', required)
+        .form-group
+          label(for='power') Power:
+          input(type='text', class='form-control', name='power', id='power', required)
+        .form-group
+          label(for='city') City:
+          input(type='text', class='form-control', name='city', id='city', required)
+        button(type='submit', class='btn btn-primary') Submit
+      br
+      h2 Superhero List
+      table.table
+        thead
+          tr
+            th Title
+            th First Name
+            th Last Name
+            th Power
+            th City
+        tbody
+          each hero in superheroes
+            tr
+              td= hero.title
+              td= hero.firstname
+              td= hero.lastname
+              td= hero.power
+              td= hero.city
